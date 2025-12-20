@@ -139,7 +139,7 @@ public class Range implements List<Integer>
         }
         public Integer next()
         {
-            return lastRet+step;
+            return (lastRet+=step);
         }
     }
 }
